@@ -6,12 +6,12 @@
 
 .read h1 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2rem;   
 }
 
 .read button {
     width: 100%;
-    margin: 1rem auto;
+    margin: .5rem auto;
     font-size: 1.1rem;
 }
 

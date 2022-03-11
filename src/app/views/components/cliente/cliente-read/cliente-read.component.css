@@ -1,0 +1,40 @@
+.create {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.create h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.create button {
+    width: 100%;
+    margin: 1rem auto;
+    font-size: 1.1rem;
+}
+
+.create button:hover {
+    color: #411255;
+    background-color: #48aa7bbe;
+}
+
+.container {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+table {
+    width: 100%;
+}
+
+#edit {
+    color: rgba(255, 217, 0, 0.842)
+}
+
+#delete {
+    color: rgba(255, 0, 0, 0.815);
+    margin-left: 2rem;
+}

@@ -1,0 +1,37 @@
+.container {
+    width: 70%;
+    height: 465px;
+    margin: auto;
+    margin-top: -2rem;
+    border: solid 1px;
+    padding: .8rem;
+    box-shadow: 0 0 1.5em rgba(221, 190, 15, 0.479);
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.7rem;
+    color: rgb(187, 180, 172);
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    text-shadow: 0.1em 0.1em 0.05em rgba(177, 174, 174, 0.603)
+}
+
+.labels {
+    display: flex;
+    justify-content: space-between;
+}
+
+.full-width {
+    width: 100%;
+}
+
+textarea {
+    min-height: 10rem;
+    max-height: 10rem;
+}
+
+button {
+    width: 100%;
+    margin-bottom: .5rem;
+}

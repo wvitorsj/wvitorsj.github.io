@@ -1,0 +1,55 @@
+.read {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.read h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.read button {
+    width: 100%;
+    margin: 1rem auto;
+    font-size: 1.1rem;
+}
+
+.read button:hover {
+    color: #411255;
+    background-color: #48aa7bbe;
+}
+
+.container {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+table {
+    width: 100%;
+}
+
+#edit {
+    color: rgba(255, 217, 0, 0.842)
+}
+
+#visual {
+    color: rgba(0, 140, 255, 0.931);
+    margin-left: 1rem;
+}
+
+td.baixa {
+    font-size: 1rem;
+    color: greenyellow;
+}
+
+td.media {
+    font-size: 1rem;
+    color: yellow
+}
+
+td.alta {
+    font-size: 1rem;
+    color: rgba(255, 0, 0, 0.911);
+}

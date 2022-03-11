@@ -1,0 +1,22 @@
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.7rem;
+    color: rgb(187, 180, 172);
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    text-shadow: 0.1em 0.1em 0.05em rgba(177, 174, 174, 0.603)
+}
+
+#abertura {
+    text-align: end;
+}
+
+button {
+    width: 100%;
+    margin-top: .5rem;
+}

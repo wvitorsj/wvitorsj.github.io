@@ -1,0 +1,21 @@
+<form class="form ">
+    <h1>Formulário para Excluir Cliente</h1>
+    <mat-form-field class="full-width">
+        <mat-label>Nome</mat-label>
+        <input [(ngModel)]="cliente.nome" name="nome" disabled matInput placeholder="Ex. Lionel Tavares">
+    </mat-form-field>
+
+    <mat-form-field class="full-width">
+        <mat-label>CPF</mat-label>
+        <input [(ngModel)]="cliente.cpf" name="cpf" disabled matInput placeholder="XXX.XXX.XXX-XX">
+    </mat-form-field>
+
+    <mat-form-field class="full-width">
+        <mat-label>Telefone</mat-label>
+        <input [(ngModel)]="cliente.telefone" name="telefone" disabled matInput placeholder="Ex. (XX) XXXXX-XXXX">
+    </mat-form-field>
+    <div class="but">
+        <button class="mat-elevation-z8" (click)="delete()" mat-stroked-button color="accent">DELETAR</button>
+        <button class="mat-elevation-z8" (click)="cancel()" mat-stroked-button color="warn">CANCELAR</button>
+    </div>
+</form>
